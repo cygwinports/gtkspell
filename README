@@ -1,0 +1,115 @@
+gtkspell
+-------------------------------------------
+GtkSpell provides word-processor-style highlighting and replacement of 
+misspelled words in a GtkTextView widget. Right-clicking a misspelled 
+word pops up a menu of suggested replacements.
+
+Runtime requirements:
+  cygwin-1.5.19-4
+  aspell-en-0.51.0-1	(or another aspell dictionary)
+  glib2-runtime-2.6.6-2
+  gtk2-x11-runtime-2.6.10-1
+  libaspell15-0.50.3-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.19-4
+  autoconf2.5-2.59-3
+  automake1.9-1.9.6-1
+  binutils-20050610-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  gtk-doc-1.4-1
+  libtool1.5-1.5.20-2
+  make-3.80-1
+  pkgconfig-0.17.2-2
+  sed-4.1.4-1
+
+Canonical homepage:
+  http://gtkspell.sourceforge.net/
+
+Canonical download:
+  http://gtkspell.sourceforge.net/download/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gtkspell-2.0.11-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  ./gtkspell-2.0.11-X.sh all
+
+This will create:
+  /usr/src/gtkspell-2.0.11-X-src.tar.bz2
+  /usr/src/gtkspell-2.0.11-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/cyggtkspell-0.dll
+  /usr/include/gtkspell-2.0/gtkspell/gtkspell.h
+  /usr/lib/libgtkspell.dll.a
+  /usr/lib/libgtkspell.la
+  /usr/lib/pkgconfig/gtkspell-2.0.pc
+  /usr/share/doc/Cygwin/gtkspell-2.0.11.README
+  /usr/share/doc/gtkspell-2.0.11/ABOUT-NLS
+  /usr/share/doc/gtkspell-2.0.11/AUTHORS
+  /usr/share/doc/gtkspell-2.0.11/ChangeLog
+  /usr/share/doc/gtkspell-2.0.11/COPYING
+  /usr/share/doc/gtkspell-2.0.11/INSTALL
+  /usr/share/doc/gtkspell-2.0.11/NEWS
+  /usr/share/doc/gtkspell-2.0.11/README
+  /usr/share/gtk-doc/html/gtkspell/chapter-tutorial.html
+  /usr/share/gtk-doc/html/gtkspell/gtkspell-gtkspell.html
+  /usr/share/gtk-doc/html/gtkspell/index.html
+  /usr/share/gtk-doc/html/gtkspell/index.sgml
+  /usr/share/gtk-doc/html/gtkspell/reference.html
+  /usr/share/gtk-doc/html/gtkspell/tutorial-building.html
+  /usr/share/gtk-doc/html/gtkspell/tutorial.html
+  /usr/share/locale/be/LC_MESSAGES/gtkspell.mo
+  /usr/share/locale/de/LC_MESSAGES/gtkspell.mo
+  /usr/share/locale/el/LC_MESSAGES/gtkspell.mo
+  /usr/share/locale/eo/LC_MESSAGES/gtkspell.mo
+  /usr/share/locale/es/LC_MESSAGES/gtkspell.mo
+  /usr/share/locale/eu/LC_MESSAGES/gtkspell.mo
+  /usr/share/locale/fr/LC_MESSAGES/gtkspell.mo
+  /usr/share/locale/ga/LC_MESSAGES/gtkspell.mo
+  /usr/share/locale/it/LC_MESSAGES/gtkspell.mo
+  /usr/share/locale/mn/LC_MESSAGES/gtkspell.mo
+  /usr/share/locale/pl/LC_MESSAGES/gtkspell.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/gtkspell.mo
+  /usr/share/locale/rm/LC_MESSAGES/gtkspell.mo
+  /usr/share/locale/ro/LC_MESSAGES/gtkspell.mo
+  /usr/share/locale/sk/LC_MESSAGES/gtkspell.mo
+  /usr/share/locale/sr/LC_MESSAGES/gtkspell.mo
+  /usr/share/locale/vi/LC_MESSAGES/gtkspell.mo
+  /usr/share/locale/wa/LC_MESSAGES/gtkspell.mo
+  /usr/share/locale/zh_CN/LC_MESSAGES/gtkspell.mo
+
+------------------
+
+Port Notes:
+
+----- version 2.0.11-2 -----
+Rebuilt with updated toolchain and autotools.
+
+----- version 2.0.11-1 -----
+Version bump.
+
+----- version 2.0.9-1 -----
+Version bump.
+
+----- version 2.0.8-1 -----
+Version bump.
+
+----- version 2.0.6-1 -----
+Version bump.
+
+----- version 2.0.5-1 -----
+Initial release for Cygwin. 
+
+
+Cygwin port maintained by:
+http://cygwin-ports.sourceforge.net/

@@ -5,24 +5,25 @@ misspelled words in a GtkTextView widget. Right-clicking a misspelled
 word pops up a menu of suggested replacements.
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  glib2-2.12.13-1
-  gtk2-x11-2.10.14-1
-  libaspell15-0.50.3-1
+  cygwin-1.5.25-11
+  glib2-2.14.6-1
+  gtk2-x11-2.12.9-1
+  libaspell15-0.60.5-1
   libintl8-0.15-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.24-2
   autoconf2.5-2.61-1
-  automake1.9-1.9.6-2
+  automake1.10-1.10.1-1
   binutils-20060817-1
-  cygport-0.3.5-1
-  gawk-3.1.5-4
+  cygport-0.3.10-1
+  gawk-3.1.6-1
   gcc-core-3.4.4-3
   gettext-devel-0.15-1
-  gtk-doc-1.8-1
-  libtool1.5-1.5.23a-2
+  glib2-devel-2.14.6-1
+  gnome-common-2.20.0-1
+  gtk-doc-1.9-1
+  libtool-2.2.2-2
   make-3.81-1
   pkg-config-0.21-1
   sed-4.1.5-2
@@ -36,16 +37,16 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gtkspell-2.0.11-X-src.tar.bz2
+  unpack gtkspell-2.0.12-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gtkspell-2.0.11-X.cygport all
+  cygport ./gtkspell-2.0.12-X.cygport all
 
 This will create:
-  /usr/src/gtkspell-2.0.11-X-src.tar.bz2
-  /usr/src/gtkspell-2.0.11-X.tar.bz2
-  /usr/src/gtkspell-devel-2.0.11-X.tar.bz2
+  /usr/src/gtkspell-2.0.12-X-src.tar.bz2
+  /usr/src/gtkspell-2.0.12-X.tar.bz2
+  /usr/src/gtkspell-devel-2.0.12-X.tar.bz2
 
 -------------------------------------------
 
@@ -53,14 +54,13 @@ Files included in the binary package:
 
 (gtkspell)
   /usr/bin/cyggtkspell-0.dll
-  /usr/share/doc/Cygwin/gtkspell-2.0.11.README
-  /usr/share/doc/gtkspell-2.0.11/ABOUT-NLS
-  /usr/share/doc/gtkspell-2.0.11/AUTHORS
-  /usr/share/doc/gtkspell-2.0.11/ChangeLog
-  /usr/share/doc/gtkspell-2.0.11/COPYING
-  /usr/share/doc/gtkspell-2.0.11/INSTALL
-  /usr/share/doc/gtkspell-2.0.11/NEWS
-  /usr/share/doc/gtkspell-2.0.11/README
+  /usr/share/doc/gtkspell-2.0.12/ABOUT-NLS
+  /usr/share/doc/gtkspell-2.0.12/AUTHORS
+  /usr/share/doc/gtkspell-2.0.12/ChangeLog
+  /usr/share/doc/gtkspell-2.0.12/COPYING
+  /usr/share/doc/gtkspell-2.0.12/INSTALL
+  /usr/share/doc/gtkspell-2.0.12/NEWS
+  /usr/share/doc/gtkspell-2.0.12/README
   /usr/share/locale/be/LC_MESSAGES/gtkspell.mo
   /usr/share/locale/de/LC_MESSAGES/gtkspell.mo
   /usr/share/locale/el/LC_MESSAGES/gtkspell.mo
@@ -70,16 +70,22 @@ Files included in the binary package:
   /usr/share/locale/fr/LC_MESSAGES/gtkspell.mo
   /usr/share/locale/ga/LC_MESSAGES/gtkspell.mo
   /usr/share/locale/it/LC_MESSAGES/gtkspell.mo
+  /usr/share/locale/ja/LC_MESSAGES/gtkspell.mo
   /usr/share/locale/mn/LC_MESSAGES/gtkspell.mo
+  /usr/share/locale/nl/LC_MESSAGES/gtkspell.mo
   /usr/share/locale/pl/LC_MESSAGES/gtkspell.mo
   /usr/share/locale/pt_BR/LC_MESSAGES/gtkspell.mo
   /usr/share/locale/rm/LC_MESSAGES/gtkspell.mo
   /usr/share/locale/ro/LC_MESSAGES/gtkspell.mo
+  /usr/share/locale/ru/LC_MESSAGES/gtkspell.mo
+  /usr/share/locale/rw/LC_MESSAGES/gtkspell.mo
   /usr/share/locale/sk/LC_MESSAGES/gtkspell.mo
   /usr/share/locale/sr/LC_MESSAGES/gtkspell.mo
+  /usr/share/locale/tr/LC_MESSAGES/gtkspell.mo
   /usr/share/locale/vi/LC_MESSAGES/gtkspell.mo
   /usr/share/locale/wa/LC_MESSAGES/gtkspell.mo
   /usr/share/locale/zh_CN/LC_MESSAGES/gtkspell.mo
+  /usr/share/locale/zh_TW/LC_MESSAGES/gtkspell.mo
 
 (gtkspell-devel)
   /usr/include/gtkspell-2.0/gtkspell/gtkspell.h
@@ -97,6 +103,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 2.0.12-1 -----
+Version bump.
 
 ----- version 2.0.11-3 -----
 Rebuilt with cygport for libintl8.

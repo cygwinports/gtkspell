@@ -1,5 +1,5 @@
 category: Text Gnome
-requires: cygwin glib2 gtk2-x11 libaspell15 libintl8
+requires: cygwin enchant glib2 gtk2-x11 libintl8
 sdesc: "GTK spell correction widget library (runtime)"
 ldesc: "GtkSpell provides word-processor-style highlighting and 
 replacement of misspelled words in a GtkTextView widget. Right-clicking 

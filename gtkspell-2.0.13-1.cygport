@@ -1,0 +1,12 @@
+inherit gnome2
+
+DESCRIPTION="GTK+ spellchecking widget"
+HOMEPAGE="http://gtkspell.sourceforge.net/"
+SRC_URI="http://gtkspell.sourceforge.net/download/${P}.tar.gz"
+
+PKG_NAMES="${PN} ${PN}-devel"
+PKG_HINTS="setup devel"
+PKG_CONTENTS[0]='usr/bin/ usr/share/doc/ usr/share/locale/'
+PKG_CONTENTS[1]='usr/include/ usr/lib/ usr/share/gtk-doc/'
+
+DIFF_EXCLUDES="docs"

@@ -3,6 +3,7 @@ inherit gnome2
 DESCRIPTION="GTK+ spellchecking widget"
 HOMEPAGE="http://gtkspell.sourceforge.net/"
 SRC_URI="http://gtkspell.sourceforge.net/download/${P}.tar.gz"
+PATCH_URI="2.0.13-no-undefined.patch"
 
 PKG_NAMES="${PN} ${PN}-devel"
 PKG_HINTS="setup devel"

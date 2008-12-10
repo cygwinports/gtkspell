@@ -5,9 +5,8 @@ HOMEPAGE="http://gtkspell.sourceforge.net/"
 SRC_URI="http://gtkspell.sourceforge.net/download/${P}.tar.gz"
 PATCH_URI="2.0.13-no-undefined.patch"
 
-PKG_NAMES="${PN} ${PN}-devel"
-PKG_HINTS="setup devel"
-PKG_CONTENTS[0]='usr/bin/ usr/share/doc/ usr/share/locale/'
-PKG_CONTENTS[1]='usr/include/ usr/lib/ usr/share/gtk-doc/'
+PKG_NAMES="${PN} lib${PN}0 lib${PN}-devel"
+libgtkspell0_CONTENTS='usr/bin/cyggtkspell-0.dll usr/share/doc/ usr/share/locale/'
+libgtkspell_devel_CONTENTS='usr/include/ usr/lib/ usr/share/gtk-doc/'
 
 DIFF_EXCLUDES="docs"

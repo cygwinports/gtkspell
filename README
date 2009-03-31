@@ -5,25 +5,26 @@ misspelled words in a GtkTextView widget. Right-clicking a misspelled
 word pops up a menu of suggested replacements.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libenchant1-1.4.2-2
-  libglib2.0_0-2.18.3-1
-  libgtk2.0_0-2.14.5-1
-  libintl8-0.17-2
+  cygwin-1.7.0-44
+  libenchant1-1.4.2-10
+  libgcc1-4.3.2-2
+  libglib2.0_0-2.20.0-1
+  libgtk2.0_0-2.16.0-1
+  libintl8-0.17-10
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-1
-  automake1.10-1.10.1-2
+  autoconf2.5-2.63-10
+  automake1.10-1.10.1-10
   binutils-20080624-2
-  cygport-0.4.2-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  gettext-devel-0.17-2
-  gnome-common-2.24.0-1
-  gtk-doc-1.11-1
-  libtool-2.2.6a-1
-  make-3.81-1
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  gettext-devel-0.17-10
+  gnome-common-2.26.0-1
+  gtk-doc-1.11-2
+  libtool-2.2.7a-11
+  make-3.81-2
   pkg-config-0.23a-2
   sed-4.1.5-2
 
@@ -53,12 +54,10 @@ Files included in the binary package:
 
 (libgtkspell0)
   /usr/bin/cyggtkspell-0.dll
-  /usr/share/doc/gtkspell-2.0.15/ABOUT-NLS
-  /usr/share/doc/gtkspell-2.0.15/AUTHORS
-  /usr/share/doc/gtkspell-2.0.15/COPYING
-  /usr/share/doc/gtkspell-2.0.15/ChangeLog
-  /usr/share/doc/gtkspell-2.0.15/INSTALL
-  /usr/share/doc/gtkspell-2.0.15/README
+  /usr/share/doc/gtkspell/AUTHORS
+  /usr/share/doc/gtkspell/COPYING
+  /usr/share/doc/gtkspell/ChangeLog
+  /usr/share/doc/gtkspell/README
   /usr/share/locale/be/LC_MESSAGES/gtkspell.mo
   /usr/share/locale/cs/LC_MESSAGES/gtkspell.mo
   /usr/share/locale/da/LC_MESSAGES/gtkspell.mo
@@ -123,39 +122,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 2.0.15-1 -----
-Version bump.
-
------ version 2.0.14-1 -----
-Version bump.
-
------ version 2.0.13-1 -----
-Version bump.
-
------ version 2.0.12-1 -----
-Version bump.
-
------ version 2.0.11-3 -----
-Rebuilt with cygport for libintl8.
-Include patch from CVS to not export some internal functions/values.
-
------ version 2.0.11-2 -----
-Rebuilt with updated toolchain and autotools.
-
------ version 2.0.11-1 -----
-Version bump.
-
------ version 2.0.9-1 -----
-Version bump.
-
------ version 2.0.8-1 -----
-Version bump.
-
------ version 2.0.6-1 -----
-Version bump.
-
------ version 2.0.5-1 -----
-Initial release for Cygwin. 
+----- version 2.0.15-10 -----
+Initial release for Cygwin 1.7. 
 
 
 Cygwin port maintained by:

@@ -1,5 +1,5 @@
-category: Text Gnome
-requires: cygwin libenchant1 libglib2.0_0 libgtk2.0_0 libintl8
+category: Gnome
+requires: cygwin libenchant1 libgcc1 libglib2.0_0 libgtk2.0_0 libintl8
 external-source: gtkspell
 sdesc: "GTK spell correction widget library (runtime)"
 ldesc: "GtkSpell provides word-processor-style highlighting and 

@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin libgtkspell0 libglib2.0-devel libgtk2.0-devel libenchant-devel gettext
+requires: libgtkspell0 libglib2.0-devel libgtk2.0-devel libenchant-devel gettext
 external-source: gtkspell
 sdesc: "GTK spell correction widget library (development)"
 ldesc: "GtkSpell provides word-processor-style highlighting and 

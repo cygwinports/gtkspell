@@ -3,7 +3,8 @@ inherit gnome2
 DESCRIPTION="GTK+ spellchecking widget"
 HOMEPAGE="http://gtkspell.sourceforge.net/"
 SRC_URI="http://gtkspell.sourceforge.net/download/${P}.tar.gz"
-PATCH_URI="2.0.13-no-undefined.patch"
+PATCH_URI="2.0.13-no-undefined.patch
+           mirror://portage/app-text/${PN}/files/${PN}-2.0.15-fix-null-list.patch"
 
 PKG_NAMES="${PN} lib${PN}0 lib${PN}-devel"
 libgtkspell0_CONTENTS='usr/bin/cyggtkspell-0.dll usr/share/doc/ usr/share/locale/'

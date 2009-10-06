@@ -5,27 +5,27 @@ misspelled words in a GtkTextView widget. Right-clicking a misspelled
 word pops up a menu of suggested replacements.
 
 Runtime requirements:
-  cygwin-1.7.0-44
-  libenchant1-1.4.2-10
-  libgcc1-4.3.2-2
-  libglib2.0_0-2.20.0-1
-  libgtk2.0_0-2.16.0-1
-  libintl8-0.17-10
+  cygwin-1.7.0-62
+  libenchant1-1.4.2-11
+  libgcc1-4.3.4-1
+  libglib2.0_0-2.20.5-1
+  libgtk2.0_0-2.16.6-1
+  libintl8-0.17-11
 
 Build requirements:
 (besides corresponding -devel packages)
   autoconf2.5-2.63-10
-  automake1.10-1.10.1-10
-  binutils-20080624-2
-  cygport-0.9.6-1
-  gawk-3.1.6-2
-  gcc4-core-4.3.2-2
-  gettext-devel-0.17-10
-  gnome-common-2.26.0-1
+  automake1.10-1.10.2-10
+  binutils-2.19.51-1
+  cygport-0.9.9-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-1
+  gettext-devel-0.17-11
+  gnome-common-2.26.0-2
   gtk-doc-1.11-2
-  libtool-2.2.7a-11
+  libtool-2.2.7a-14
   make-3.81-2
-  pkg-config-0.23a-2
+  pkg-config-0.23b-10
   sed-4.1.5-2
 
 Canonical homepage:
@@ -50,77 +50,10 @@ This will create:
 
 -------------------------------------------
 
-Files included in the binary package:
-
-(libgtkspell0)
-  /usr/bin/cyggtkspell-0.dll
-  /usr/share/doc/gtkspell/AUTHORS
-  /usr/share/doc/gtkspell/COPYING
-  /usr/share/doc/gtkspell/ChangeLog
-  /usr/share/doc/gtkspell/README
-  /usr/share/locale/be/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/cs/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/da/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/de/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/el/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/eo/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/es/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/eu/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/fi/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/fr/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/ga/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/gl/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/hu/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/hy/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/id/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/it/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/ja/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/ky/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/lt/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/mn/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/nb/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/nl/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/pl/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/pt_BR/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/rm/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/ro/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/ru/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/rw/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/sk/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/sl/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/sr/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/sv/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/tr/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/uk/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/vi/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/wa/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/zh_CN/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/zh_HK/LC_MESSAGES/gtkspell.mo
-  /usr/share/locale/zh_TW/LC_MESSAGES/gtkspell.mo
-
-(libgtkspell-devel)
-  /usr/include/gtkspell-2.0/gtkspell/gtkspell.h
-  /usr/lib/libgtkspell.dll.a
-  /usr/lib/libgtkspell.la
-  /usr/lib/pkgconfig/gtkspell-2.0.pc
-  /usr/share/gtk-doc/html/gtkspell/chapter-tutorial.html
-  /usr/share/gtk-doc/html/gtkspell/gtkspell-gtkspell.html
-  /usr/share/gtk-doc/html/gtkspell/gtkspell.devhelp
-  /usr/share/gtk-doc/html/gtkspell/gtkspell.devhelp2
-  /usr/share/gtk-doc/html/gtkspell/home.png
-  /usr/share/gtk-doc/html/gtkspell/index.html
-  /usr/share/gtk-doc/html/gtkspell/index.sgml
-  /usr/share/gtk-doc/html/gtkspell/left.png
-  /usr/share/gtk-doc/html/gtkspell/reference.html
-  /usr/share/gtk-doc/html/gtkspell/right.png
-  /usr/share/gtk-doc/html/gtkspell/style.css
-  /usr/share/gtk-doc/html/gtkspell/tutorial-building.html
-  /usr/share/gtk-doc/html/gtkspell/tutorial.html
-  /usr/share/gtk-doc/html/gtkspell/up.png
-
-------------------
-
 Port Notes:
+
+----- version 2.0.15-11 -----
+Added Gentoo patch.
 
 ----- version 2.0.15-10 -----
 Initial release for Cygwin 1.7. 

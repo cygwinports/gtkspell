@@ -1,5 +1,0 @@
-category: Gnome
-sdesc: "GTK spell correction widget library (sources)"
-ldesc: "GtkSpell provides word-processor-style highlighting and 
-replacement of misspelled words in a GtkTextView widget. Right-clicking 
-a misspelled word pops up a menu of suggested replacements."

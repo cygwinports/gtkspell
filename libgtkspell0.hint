@@ -1,7 +1,0 @@
-category: Gnome
-requires: libenchant1 libgcc1 libglib2.0_0 libgtk2.0_0 libintl8
-external-source: gtkspell
-sdesc: "GTK spell correction widget library (runtime)"
-ldesc: "GtkSpell provides word-processor-style highlighting and 
-replacement of misspelled words in a GtkTextView widget. Right-clicking 
-a misspelled word pops up a menu of suggested replacements."

@@ -1,0 +1,19 @@
+inherit gnome2
+
+NAME="gtkspell"
+VERSION=2.0.16
+RELEASE=1
+CATEGORY="GNOME"
+SUMMARY="GTK spell correction widget library"
+DESCRIPTION="GtkSpell provides word-processor-style highlighting and
+replacement of misspelled words in a GtkTextView widget. Right-clicking
+a misspelled word pops up a menu of suggested replacements."
+HOMEPAGE="http://gtkspell.sourceforge.net/"
+SRC_URI="http://gtkspell.sourceforge.net/download/gtkspell-${VERSION}.tar.gz"
+PATCH_URI="2.0.13-no-undefined.patch"
+
+PKG_NAMES="lib${NAME}0 lib${NAME}-devel"
+libgtkspell0_CONTENTS='usr/bin/cyggtkspell-0.dll usr/share/doc/ usr/share/locale/'
+libgtkspell_devel_CONTENTS='usr/include/ usr/lib/ usr/share/gtk-doc/'
+
+DIFF_EXCLUDES="docs"
